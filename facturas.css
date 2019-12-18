@@ -1,0 +1,51 @@
+div {
+    margin-bottom: 15px;
+    text-align: center;
+}
+ 
+label {
+	width: 100px;
+	display: inline-block;
+}
+ 
+input {
+	width: 100px;
+}
+ 
+th{
+	width: 136px;
+	text-align: center;
+}
+ 
+td {
+	text-align: center;
+}
+ 
+td:first-child {
+	text-align: center;
+}
+ 
+tfoot th {
+	text-align: left;
+}
+ 
+tfoot th:last-child {
+	text-align: right;
+}
+ 
+tfoot,
+thead,
+tbody,
+table {
+	border: 1px solid black;
+	text-align: center;
+}
+ 
+thead,
+tfoot {
+	background-color: grey;
+}
+ 
+tbody tr:hover {
+	background-color: rgb(54, 157, 253);
+}
