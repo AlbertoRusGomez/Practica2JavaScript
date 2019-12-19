@@ -28,4 +28,8 @@ let agregarLinea = function () {
     document.getElementById('iva').innerHTML = decimal_iva.toFixed(2);
     document.getElementById('total').innerHTML = total_factura.toFixed(2);
 
+    let d = new Date();
+    document.getElementById('fecha').innerHTML = ('Se ha añadido en la fecha: ' + d.getDate() + '/' + d.getMonth() + '/' + d.getFullYear());
+
+    document.getElementById('hora').innerHTML = ('Se ha añadido a las: ' + d.getUTCHours() +':'+d.getMinutes()+':'+d.getSeconds());
 }
